@@ -14,6 +14,7 @@ const store = configureStore({
     bonus: bonusReducers,
     reward: rewardReducer,
   },
+  extraReducers: {},
 });
 
 createRoot(document.getElementById("root")).render(
